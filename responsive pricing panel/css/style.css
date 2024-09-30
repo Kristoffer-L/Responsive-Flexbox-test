@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 1.5rem;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.pricing-plan {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0.1rem solid rgb(125, 125, 255, 0.3);
+}
+.pricing-img {
+    width: 100%;
+}
+.pricing-header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    color: #a6a6a6;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+.pricing-features {
+    width: 100%;
+}
+.pricing-features-item {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0000ff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    padding: 1rem 0;
+    border-bottom: 0.1rem solid rgb(125, 125, 255, 0.3);
+}
+.pricing-features-item:first-child {
+    border-top: 0.1rem solid rgb(125, 125, 255, 0.3);
+}
+.pricing-price {
+    color: #0000ff;
+    padding: 2rem 0;
+
+}
+.pricing-button {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: 0.1rem solid rgb(125, 125, 255, 0.5);
+    border-radius: 1rem;
+    margin-bottom: 2rem ;
+}
+.is-featured {
+    background-color: #7474ff;
+    color: white;
+}
+@media (min-width: 900px) {
+    html {
+        font-size: 2rem;
+    }
+    .panel {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    .middle-price-plan {
+        border-left: 0.1rem solid rgb(125, 125, 255, 0.3);
+        border-right: 0.1rem solid rgb(125, 125, 255, 0.3);
+    }
+}

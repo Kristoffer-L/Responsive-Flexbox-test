@@ -8,8 +8,7 @@ body {
     align-items: center;
 }
 .card {
-    margin: 1rem 0;
-    width: 95%;
+    margin: 0 10%;
     background-color: #0c6e68;
 }
 .card-img {
@@ -55,7 +54,25 @@ span {
     text-decoration: none;
     height: 1em;
 }
-@media (min-width:600px) {
-}
 @media (min-width:1200px) {
+    .card {
+        display: flex;
+        padding-right: 4rem;
+        margin: 0 10%;
+    }
+    .card-img {
+        width: 25%;
+        height: auto;
+        background-color: chartreuse;
+    }
+    .card-title {
+        font-size: 2.5rem;
+        
+    }
+    .card-body {
+        line-height: 3rem;
+    }
+    .card-footer {
+        margin-top: auto;
+    }
 }
