@@ -59,13 +59,13 @@ img {
     background-color: #7474ff;
     color: white;
 }
-@media (min-width: 900px) {
+@media (min-width: 768px) {
     html {
         font-size: 2rem;
     }
     .panel {
         display: flex;
-        margin-bottom: 1rem;
+        margin: 1rem;
     }
     .middle-price-plan {
         border-left: 0.1rem solid rgb(125, 125, 255, 0.3);
