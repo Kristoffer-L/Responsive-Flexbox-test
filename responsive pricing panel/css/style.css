@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 html {
     font-size: 1.5rem;
@@ -59,7 +60,7 @@ img {
     background-color: #7474ff;
     color: white;
 }
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
     html {
         font-size: 2rem;
     }

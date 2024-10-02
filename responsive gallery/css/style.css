@@ -1,0 +1,56 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #c9c9c9;
+}
+section {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    box-shadow: 2px 2px 0.5rem black;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+h3 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 1em 0;
+}
+.photo__img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+figure {
+    margin: 0.5rem 0;
+    width: 90%;
+    margin: auto;
+}
+article {
+
+}
+@media (min-width: 1000px) {
+    section {
+        align-items: start;
+        padding: 1rem;
+    }
+    article {
+        flex-direction: row;
+    }
+    figure {
+        height: 7rem;
+    }
+    .photo__img {
+        width: auto;
+        height: 100%;
+    }
+}
